@@ -1,0 +1,132 @@
+﻿/*<meta conditions="" />*/
+
+.docs #change-language-menu {
+    min-width: 14em;
+    z-index : 100;
+}
+
+span.mpld-area-show
+{
+	display: inline;
+}
+
+.mpld-area-show
+{
+	display: block;
+}
+
+.mpld-area-hide
+{
+	display: none;
+}
+
+.mpld-buttons
+{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.mpld-code
+{
+	background-color: inherit;
+}
+
+.mpld-button
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	background-color: inherit;
+}
+
+.mpld-tmplt-method-block
+{
+	
+}
+
+code.mpld-tmplt-method-block.hljs
+{
+	
+}
+
+.mpld-tmplt-method-ptype
+{
+	margin-left: 2em;
+	min-width: 8em;
+	border: 0;
+}
+
+.mpld-tmplt-method-pname
+{
+	padding-left: 1em;
+	border: 0;
+}
+
+.mpld-paramdef
+{
+	padding-left: 2em;
+}
+
+.mpld-paramdef-name
+{
+	
+}
+
+.mpld-paramdef-type
+{
+	
+}
+
+.mpld-paramdef-desc
+{
+	
+}
+
+table.mpld-tmplt-method-block tbody tr:not(:last-child),
+table.mpld-tmplt-method-block thead tr,
+table.mpld-tmplt-method-block td:not(:last-child)
+{
+	border: 0;
+}
+.docs div.mpld-descr > p{
+	margin-bottom : 5px;
+}
+.docs div.mpld-descrfull > p {
+	margin-bottom : 5px;
+}
+.docs .mpld-platformlabel {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    font-size: 80%;
+    min-width: 6em;
+    display: inline-block;
+	}
+.mpld-code-removed {
+    background-color: #FEE8E9;  
+}
+.mpld-code-added {
+    background-color: #DDFFDD; 
+}
+.mpld-platform-header {
+    font-weight: 600;   
+}
+.mpld-platform-language-slct {
+    text-indent: 0px;  
+    font-weight: 400;    
+}
+
+.mpld-language-slct {
+    text-indent: 0px;   
+    font-weight: 400;     
+}
+.mpld-platform-group {
+    padding-top : 0px;
+    padding-bottom : 0px;
+    margin-bottom : 0;
+    margin-top : 0;
+}
+
