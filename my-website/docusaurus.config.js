@@ -16,6 +16,12 @@ module.exports = {
 
   },
   themeConfig: {
+    algolia: {
+      apiKey: '6250418bcc6c4b5124fd2f0cb776c6ba',
+      indexName: 'Applitools_documentation',
+      // Optional: see doc section below
+      appId: '4O0M1JZGOO',
+    },
     hideableSidebar: true,
     navbar: {
       title: 'Applitools documentation',
