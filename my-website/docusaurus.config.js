@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Applitools documentation',
   tagline: 'A full guide to Applitools',
-  url: 'https://applitools-docs.netlify.app/',
-  baseUrl: '/',
+  url: 'https://applitools.com',
+  baseUrl: '/sdk-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.webp',
