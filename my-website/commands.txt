@@ -1,5 +1,6 @@
 Run Algolia search crawler:
 docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
+(Algolia installation tutorial: https://www.youtube.com/watch?v=xXwvDVGBlqQ&ab_channel=FedericoTartarini)
 
 Build static pages:
 npm run build
