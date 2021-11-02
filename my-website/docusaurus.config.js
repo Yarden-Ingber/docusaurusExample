@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Applitools documentation',
+  title: 'Applitools SDK API reference',
   tagline: 'A full guide to Applitools',
   url: 'https://applitools.com',
   baseUrl: '/sdk-docs/',
@@ -24,7 +24,7 @@ module.exports = {
     },
     hideableSidebar: true,
     navbar: {
-      title: 'Applitools documentation',
+      title: 'Applitools SDK API reference',
       logo: {
         alt: 'Applitools documentation logo',
         src: 'img/logo.png',
