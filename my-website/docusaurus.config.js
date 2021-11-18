@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'A full guide to Applitools',
   url: 'https://applitools.com',
   baseUrl: '/sdk-docs/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'error',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.webp',
   organizationName: 'Applitools', // Usually your GitHub org/user name.
@@ -17,10 +17,9 @@ module.exports = {
   },
   themeConfig: {
     algolia: {
-      apiKey: '6250418bcc6c4b5124fd2f0cb776c6ba',
-      indexName: 'Applitools_documentation',
-      // Optional: see doc section below
-      appId: '4O0M1JZGOO',
+      apiKey: '038f80c5c9c9daaec7206a1a8acf27fa',
+      indexName: 'applitools-sdk',
+      appId: 'BH4D9OD16A',
     },
     hideableSidebar: true,
     navbar: {
