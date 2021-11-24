@@ -17,9 +17,9 @@ module.exports = {
   },
   themeConfig: {
     algolia: {
-      apiKey: '038f80c5c9c9daaec7206a1a8acf27fa',
+      apiKey: '2a94ef2d6dd8443ed6f1deb4b0f7c393',
       indexName: 'applitools-sdk',
-      appId: 'BH4D9OD16A',
+      appId: '43J1WXG2YG',
     },
     hideableSidebar: true,
     navbar: {
