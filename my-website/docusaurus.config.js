@@ -6,7 +6,7 @@ module.exports = {
   title: 'Applitools SDK API reference',
   tagline: 'A full guide to Applitools',
   url: 'https://applitools.com',
-  baseUrl: '/sdk-docs/',
+  baseUrl: '/docs/api-ref/',
   onBrokenLinks: 'error',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.webp',
