@@ -3,9 +3,11 @@ slug: /
 sidebar_position: 1
 ---
 
-# Docs
+# API Reference
 
-Find overviews, how-to guides, SDK examples and reference and more
+![Under construction](http://rongoodlife.co.il/wp-content/uploads/2017/03/website-under-construction-1.jpg)
+
+<!-- Find overviews, how-to guides, SDK examples and reference and more
 
 | Overview   |      General concepts      |  The Test Manager |
 |:-:|:-:|:-:|
@@ -15,4 +17,4 @@ Find overviews, how-to guides, SDK examples and reference and more
 |  SDK API reference guide  |  Integrations  |  Admin  |
 |:-:|:-:|:-:|
 | ![SDK API reference guide](../static/img/sdk-api.png) | ![Integrations](../static/img/integration.png) | ![Admin](../static/img/administration.png) |
-|  See which SDKs are available,<br />choose your SDK and see the detailed API definition, and lots of articles<br />to help you code your visual test effectively.  |  Integrating Eyes with 3rd party platforms.  |  The Admin panel provides account<br />administrators with tools to perform account, team and user administration<br />and management tasks.  |
+|  See which SDKs are available,<br />choose your SDK and see the detailed API definition, and lots of articles<br />to help you code your visual test effectively.  |  Integrating Eyes with 3rd party platforms.  |  The Admin panel provides account<br />administrators with tools to perform account, team and user administration<br />and management tasks.  | -->

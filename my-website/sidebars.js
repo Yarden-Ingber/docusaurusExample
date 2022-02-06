@@ -18,8 +18,8 @@ module.exports = {
   tutorialSidebar: [
     {
       type: 'doc',
-      id: 'Docs',
-      label: 'Docs'
+      id: 'Home',
+      label: 'Home'
     },
     {
       type: 'category',
@@ -60,20 +60,13 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Test manager',
+      label: 'Server API',
       items: [
         {
           type: 'doc',
-          id: 'sdk-api-reference/Test manager/Introduction',
-          label: 'Introduction',
+          id: 'server-api/ServerApi',
+          label: 'Server API',
         },
-        {
-          type: 'category',
-          label: 'Test manager UI overview',
-          items: [
-            'sdk-api-reference/Test manager/Test manager UI overview/Test manager UI overview',
-          ]
-        }
       ]
     }
   ],
