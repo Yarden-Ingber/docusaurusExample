@@ -24,32 +24,42 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .navbar__logo {
   height: 50px;
 }
 
 html[data-theme='light'] .navbar__link {
-  color: #4e5a63;
-  margin-top: 0px;
+  color: rgb(47, 115, 113);
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "Proxima Regular", sans-serif;
+  font-stretch: 100%;
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+html[data-theme='light'] .menu__link,
+html[data-theme='light'] .table-of-contents__link {
+  color: rgb(44, 44, 44);
 }
 
-html[data-theme='light'] a {
-  color: #1A847B;
+html[data-theme='light'] .table-of-contents__link--active,
+html[data-theme='light'] a,
+html[data-theme='light'] .menu__link--active,
+html[data-theme='light'] .pagination-nav__label {
+  color: #005384;
 }
 
-html[data-theme='dark'] a {
-  color: #58a6ff;
+h1 {
+  font-weight: 400;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+html[data-theme='light'] h1 {
+  color: #3c739a;
+}
+
+html {
+  font-family: sans-serif;
 }
