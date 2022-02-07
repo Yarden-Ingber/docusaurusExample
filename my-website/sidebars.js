@@ -64,8 +64,8 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          id: 'server-api/ServerApi',
-          label: 'Server API',
+          id: 'server-api/ServerRestAPI',
+          label: 'Server REST API Reference (v1.0)',
         },
       ]
     }
