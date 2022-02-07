@@ -26,6 +26,7 @@ module.exports = {
       logo: {
         alt: 'Applitools documentation logo',
         src: 'img/logo.png',
+        srcDark: 'img/logo.png',
       },
       items: [
         {
