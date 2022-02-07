@@ -33,11 +33,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 html[data-theme='light'] .navbar__link {
-  color: rgb(47, 115, 113);
+  color: rgb(78, 90, 99);
+}
+
+.navbar__link {
   font-size: 21px;
   font-weight: 400;
   font-family: "Proxima Regular", sans-serif;
   font-stretch: 100%;
+  padding-left: 50px;
 }
 
 html[data-theme='light'] .menu__link,
@@ -52,12 +56,17 @@ html[data-theme='light'] .pagination-nav__label {
   color: #005384;
 }
 
+html[data-theme='light'] h1 {
+  color: #3c739a;
+}
+
 h1 {
+  font-size: 36px;
   font-weight: 400;
 }
 
-html[data-theme='light'] h1 {
-  color: #3c739a;
+h2 {
+  font-size: 28px;
 }
 
 html {
