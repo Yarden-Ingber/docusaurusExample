@@ -60,13 +60,19 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Server API',
+      label: 'Server REST API Reference',
       items: [
         {
-          type: 'doc',
-          id: 'server-api/ServerRestAPI',
-          label: 'Server REST API Reference (v1.0)',
+          type: 'category',
+          label: 'Batches',
+          items: [
+            'server-api/batches/list-batch-results',
+            'server-api/batches/list-batch-statistics',
+          ]
         },
+        'server-api/authentication',
+        'server-api/basic-endpoint',
+        'server-api/date-format',
       ]
     }
   ],
