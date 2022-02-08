@@ -92,7 +92,6 @@ module.exports = {
             {
               label: 'Terms & Conditions',
               to: 'https://applitools.com/terms-of-use/',
-              position: "right",
             },
           ],
         },
@@ -101,7 +100,6 @@ module.exports = {
             {
               label: 'Privacy Policy',
               to: 'https://applitools.com/privacy-policy/',
-              position: "right",
             },
           ],
         },
@@ -110,7 +108,6 @@ module.exports = {
             {
               label: 'GDPR',
               to: 'https://applitools.com/gdpr/',
-              position: "right",
             },
           ],
         },
@@ -119,7 +116,6 @@ module.exports = {
             {
               label: 'Privacy Shield',
               to: 'https://applitools.com/privacy-shield-notice/',
-              position: "right",
             },
           ],
         },
