@@ -62,6 +62,9 @@ module.exports = {
       type: 'category',
       label: 'Server REST API Reference',
       items: [
+        'server-api/basic-endpoint',
+        'server-api/authentication',
+        'server-api/date-format',
         {
           type: 'category',
           label: 'Batches',
@@ -70,9 +73,6 @@ module.exports = {
             'server-api/batches/list-batch-statistics',
           ]
         },
-        'server-api/authentication',
-        'server-api/basic-endpoint',
-        'server-api/date-format',
       ]
     }
   ],
