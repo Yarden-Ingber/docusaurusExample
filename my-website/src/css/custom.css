@@ -28,22 +28,22 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.navbar__logo {
+/* .navbar__logo {
   height: 50px;
-}
+} */
 
 html[data-theme='light'] .navbar__link,
 html[data-theme='light'] .footer__link-item {
   color: rgb(78, 90, 99);
 }
 
-.navbar__link {
+/* .navbar__link {
   font-size: 21px;
   font-weight: 400;
   font-family: "Proxima Regular", sans-serif;
   font-stretch: 100%;
-  padding-left: 50px;
-}
+  padding-left: 10%;
+} */
 
 html[data-theme='light'] .menu__link,
 html[data-theme='light'] .table-of-contents__link {
