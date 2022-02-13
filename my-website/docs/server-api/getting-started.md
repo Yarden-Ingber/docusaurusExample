@@ -1,5 +1,5 @@
 ---
-slug: /server-api
+slug: /server-api/
 ---
 
 # Getting Started
