@@ -62,6 +62,7 @@ module.exports = {
       type: 'category',
       label: 'Server REST API Reference',
       items: [
+        'server-api/getting-started',
         'server-api/basic-endpoint',
         'server-api/authentication',
         'server-api/date-format',
