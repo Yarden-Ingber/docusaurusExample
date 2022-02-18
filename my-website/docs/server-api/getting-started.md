@@ -1,6 +1,3 @@
-<!-- ---
-slug: /server-api/
---- -->
 ---
 slug: /
 sidebar_position: 1
