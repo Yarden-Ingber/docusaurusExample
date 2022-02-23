@@ -70,6 +70,11 @@ module.exports = {
           label: 'Get started',
           position: 'right',
         },
+        {
+          href: 'https://applitools.com/docs/api-ref/',
+          label: 'API Reference',
+          position: 'right',
+        },
       ],
     },
     footer: {
