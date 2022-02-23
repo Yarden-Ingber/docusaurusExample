@@ -9,17 +9,17 @@ GET /batches/{batchId}?[start=<start-date>][&end=<end-date>][&statsOnly=true/fal
 
 | Name      | Type   | In     | Description
 | --------- | ------ | ------ | ------------------
-| batchId   | string | path   | The Batch's ID or Pointer ID.
+| batchId   | string | path   | The batch ID or pointer ID.
 | start     | date   | query  | *Optional* The beginning date and time for the search range.
 | end       | date   | query  | *Optional* The end date and time for the search range.
-| statsOnly | bool   | query  | *Optional* If `true` will only return the statistics summary, without the results list.
+| statsOnly | bool   | query  | *Optional* If `true` returns only the statistics summary, without the results list.
 
 The `start` and `end` dates are optional with the following logic:
 
 * If both are absent, all tests in the batch are returned.
 * If both are specified, all tests in the inclusive range are returned.
-* If only “start” is specified, all tests since the given start date are returned (inclusive).
-* If only “end” is specified, all tests until the given end date are returned (inclusive).
+* If only “start” is specified, all tests since the specified start date are returned (inclusive).
+* If only “end” is specified, all tests until the specified end date are returned (inclusive).
 
 You can think of it as if all tests in the batch are collected, then filtered by the start date if present, then filtered again by the end date if present.
 

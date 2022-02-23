@@ -5,9 +5,9 @@ sidebar_position: 1
 
 # Getting Started
 
-Applitools exposes a set of REST API endpoints that allow you to retrieve data programmatically
+Applitools exposes a set of REST API endpoints that allows you to retrieve data programmatically
 so you can use it in the way that best suits your needs. 
-This API can be used in addition to the existing reporting and integrations we have today.
+This API can be used in addition to existing reporting and integrations.
 
 ## Basic Requirements
 

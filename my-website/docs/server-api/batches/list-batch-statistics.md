@@ -8,10 +8,10 @@ GET /batches?[start=<start-date>][&end=<end-date>][&skipTo=<batchId>]
 
 | Name      | Type   | In     | Description
 | --------- | ------ | ------ | ------------------
-| start     | date   | query  | *Optional* The beginning date and time for the search range. Defaults to 30 days back.
-| end       | date   | query  | *Optional* The end date and time for the search range. Defaults to the current day.
-| skipTo    | string | query  | *Optional* The batch id to continue from. **Please don't use it directly. Use the value of the `Link` response header.**
-| pageSize  | int    | query  | *Optional* Sets the maximum items to retrieve. If provided MUST be between 1 and 100. 
+| start     | date   | query  | *Optional* The beginning date and time for the search range. Default: 30 days prior to current date.
+| end       | date   | query  | *Optional* The end date and time for the search range. Default: current date.
+| skipTo    | string | query  | *Optional* Starting batch id. **NOTE: You must use the value of the `Link` response header.**
+| pageSize  | int    | query  | *Optional* Maximum number of items to retrieve. Range: between 1 and 100. 
 
 ## Response Example
 
@@ -38,7 +38,7 @@ GET /batches?[start=<start-date>][&end=<end-date>][&skipTo=<batchId>]
 ### Special Headers
 | Name | Description 
 | ---- | ----------- 
-| Link | If present will look like this: `<https://eyes.applitools.com/api/v1/batches?start=2022-01-06Z&end=2022-02-06&skipTo=02517910649999999999>; rel="next"`
+| Link | Format (if present): `<https://eyes.applitools.com/api/v1/batches?start=2022-01-06Z&end=2022-02-06&skipTo=02517910649999999999>; rel="next"`
 
 
 ## cURL Example
