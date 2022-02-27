@@ -37,13 +37,16 @@ html[data-theme='light'] .footer__link-item {
   color: rgb(78, 90, 99);
 }
 
-/* .navbar__link {
-  font-size: 21px;
-  font-weight: 400;
-  font-family: "Proxima Regular", sans-serif;
-  font-stretch: 100%;
-  padding-left: 10%;
+/* .navbar__brand {
+  margin-right: 20px;
 } */
+
+.navbar__link {
+  /* font-size: 21px; */
+  /* font-weight: 400; */
+  font-family: "Proxima Regular", sans-serif;
+  /* font-stretch: 100%; */
+}
 
 html[data-theme='light'] .menu__link,
 html[data-theme='light'] .table-of-contents__link {
