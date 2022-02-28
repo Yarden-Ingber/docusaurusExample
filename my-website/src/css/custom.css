@@ -6,16 +6,16 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+/* :root {
+  --ifm-color-primary: #1A847B;
+  --ifm-color-primary-dark: #dadde1;
+  --ifm-color-primary-darker: #dadde1;
+  --ifm-color-primary-darkest: #dadde1;
+  --ifm-color-primary-light: #1A847B;
+  --ifm-color-primary-lighter: #1A847B;
+  --ifm-color-primary-lightest: #1A847B;
   --ifm-code-font-size: 95%;
-}
+} */
 
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
@@ -26,4 +26,74 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* .navbar__logo {
+  height: 50px;
+} */
+
+html[data-theme='light'] .navbar__link,
+html[data-theme='light'] .footer__link-item {
+  color: rgb(78, 90, 99);
+}
+
+/* .navbar__brand {
+  margin-right: 20px;
+} */
+
+.navbar__link {
+  /* font-size: 21px; */
+  /* font-weight: 400; */
+  font-family: "Proxima Regular", sans-serif;
+  /* font-stretch: 100%; */
+}
+
+html[data-theme='light'] .menu__link,
+html[data-theme='light'] .table-of-contents__link {
+  color: rgb(44, 44, 44);
+}
+
+html[data-theme='light'] .table-of-contents__link--active,
+html[data-theme='light'] a,
+html[data-theme='light'] .menu__link--active,
+html[data-theme='light'] .pagination-nav__label {
+  color: #005384;
+}
+
+html[data-theme='light'] h1 {
+  color: #3c739a;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+/* Spread the footer link to 100% */
+.footer__links {
+  width: 100%;
+}
+
+.footer__links .footer__col{
+  margin: 0px;
+  padding: 0px;
+  width: 10%;
+}
+
+/* Space between the social links and the text links in footer */
+.footer__links .footer__col:nth-child(2) {
+  margin-left: 21%;
+}
+
+.footer__link-item {
+  font-size: 12.8px;
+  font-weight: 400;
 }
