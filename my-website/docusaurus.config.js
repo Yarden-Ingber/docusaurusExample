@@ -127,7 +127,8 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Applitools, Inc.`,
+      // copyright: `Copyright © ${new Date().getFullYear()} Applitools, Inc.`,
+      copyright: `Applitools. All Rights Reserved.`,
     },
     prism: {
       theme: lightCodeTheme,
