@@ -1,4 +1,4 @@
-# List Batch Results
+# List batch results
 Lists the results of all the tests (sessions) in a batch.
 
 ## Request
@@ -23,7 +23,7 @@ The `start` and `end` dates are optional with the following logic:
 
 You can think of it as if all tests in the batch are collected, then filtered by the start date if present, then filtered again by the end date if present.
 
-## Response Example
+## Response example
 ```json
 {
   "statistics": {
@@ -54,7 +54,7 @@ You can think of it as if all tests in the batch are collected, then filtered by
 }
 ```
 
-## cURL Example
+## cURL example
 ```
 curl -H "X-Eyes-Api-Key: <your-api-key>" -X GET "https://eyes.applitools.com/api/v1/batches/<some-batch-id>"
 ```

@@ -21,7 +21,7 @@ module.exports = {
       indexName: 'applitools-sdk',
       appId: '43J1WXG2YG',
     },
-    hideableSidebar: true,
+    hideableSidebar: false,
     navbar: {
       logo: {
         alt: 'Applitools documentation logo',
@@ -72,9 +72,10 @@ module.exports = {
           target: '_self',
         },
         {
-          href: 'https://auth.applitools.com/users/register',
-          label: 'Get started',
+          to: 'https://auth.applitools.com/users/register',
+          label: 'GET STARTED',
           position: 'right',
+          className: 'button',
         },
       ],
     },

@@ -17,6 +17,25 @@
   --ifm-code-font-size: 95%;
 } */
 
+.pagination-nav__item {
+  display: none;
+}
+
+.navbar__item.navbar__link.button {
+  text-decoration: none;
+  background-color: rgb(26, 132, 123);
+  color: rgb(255, 255, 255);
+  padding: 8px 20px 8px 20px;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: 550;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
@@ -60,7 +79,9 @@ html[data-theme='light'] .pagination-nav__label {
   color: #005384;
 }
 
-html[data-theme='light'] h1 {
+html[data-theme='light'] h1,
+html[data-theme='light'] h2,
+html[data-theme='light'] h3 {
   color: #3c739a;
 }
 
@@ -71,6 +92,11 @@ h1 {
 
 h2 {
   font-size: 28px;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
 }
 
 html {

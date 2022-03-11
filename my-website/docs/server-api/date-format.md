@@ -1,4 +1,4 @@
-# Date Format
+# Date format
 All the dates and times used in the API SHOULD have the following format, and MUST be compatible with RFC3339:
 
 ```

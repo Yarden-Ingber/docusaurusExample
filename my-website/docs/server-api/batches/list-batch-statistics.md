@@ -1,4 +1,4 @@
-# List Batch Statistics
+# List batch statistics
 
 ## Request
 ```
@@ -13,7 +13,7 @@ GET /batches?[start=<start-date>][&end=<end-date>][&skipTo=<batchId>]
 | skipTo    | string | query  | *Optional* Starting batch id. **NOTE: You must use the value of the `Link` response header.**
 | pageSize  | int    | query  | *Optional* Maximum number of items to retrieve. Range: between 1 and 100. 
 
-## Response Example
+## Response example
 
 ### Body
 ```json
@@ -35,13 +35,13 @@ GET /batches?[start=<start-date>][&end=<end-date>][&skipTo=<batchId>]
 }
 ```
 
-### Special Headers
+### Special headers
 | Name | Description 
 | ---- | ----------- 
 | Link | Format (if present): `<https://eyes.applitools.com/api/v1/batches?start=2022-01-06Z&end=2022-02-06&skipTo=02517910649999999999>; rel="next"`
 
 
-## cURL Example
+## cURL example
 ```
 curl -H "X-Eyes-Api-Key: <your-api-key>" -X GET "https://eyes.applitools.com/api/v1/batches"
 ```
