@@ -60,7 +60,7 @@ module.exports = {
     // },
     {
       type: 'category',
-      label: 'Server REST API Reference',
+      label: 'Server REST API reference',
       items: [
         'server-api/getting-started',
         'server-api/basic-endpoint',

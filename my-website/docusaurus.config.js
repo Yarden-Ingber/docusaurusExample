@@ -67,7 +67,7 @@ module.exports = {
         },
         {
           to: 'https://applitools.com/docs/api-ref/',
-          label: 'API Reference',
+          label: 'API reference',
           position: "left",
           target: '_self',
         },
