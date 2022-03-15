@@ -72,16 +72,16 @@ module.exports = {
           target: '_self',
         },
         {
+          href: '#',
+          label: ' ',
+          position: 'left',
+          className: 'searchBar',
+        },
+        {
           to: 'https://auth.applitools.com/users/register',
           label: 'GET STARTED',
           position: 'right',
           className: 'button',
-        },
-        {
-          href: '#',
-          label: ' ',
-          position: 'right',
-          className: 'searchBar',
         },
       ],
     },
