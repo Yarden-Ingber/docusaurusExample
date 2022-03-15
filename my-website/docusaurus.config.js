@@ -97,6 +97,13 @@ module.exports = {
         {
           items: [
             {
+              html: '<div class="searchBar"></div><script async src="https://js.sitesearch360.com/plugin/bundle/1853.js"></script>',
+            },
+          ],
+        },
+        {
+          items: [
+            {
               label: 'Terms & Conditions',
               to: 'https://applitools.com/terms-of-use/',
             },
