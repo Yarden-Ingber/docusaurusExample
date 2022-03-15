@@ -16,11 +16,11 @@ module.exports = {
 
   },
   themeConfig: {
-    algolia: {
-      apiKey: '2a94ef2d6dd8443ed6f1deb4b0f7c393',
-      indexName: 'applitools-sdk',
-      appId: '43J1WXG2YG',
-    },
+    // algolia: {
+    //   apiKey: '2a94ef2d6dd8443ed6f1deb4b0f7c393',
+    //   indexName: 'applitools-sdk',
+    //   appId: '43J1WXG2YG',
+    // },
     hideableSidebar: false,
     navbar: {
       logo: {
@@ -77,6 +77,12 @@ module.exports = {
           position: 'right',
           className: 'button',
         },
+        {
+          href: '#',
+          label: ' ',
+          position: 'right',
+          className: 'searchBar',
+        },
       ],
     },
     footer: {
@@ -90,15 +96,8 @@ module.exports = {
               <a href="http://www.linkedin.com/company/2837526?trk=tyah" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v2.png" height="30px"/></a>\
               <a href="http://www.youtube.com/channel/UCk13Ucc26mWqI4xvsbO13jw" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png" height="30px"/></a>\
               <a href="https://medium.com/@applitools" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/000000/medium-logo.png" height="30px"/></a>\
-              <a href="https://github.com/applitools" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/000000/github.png" height="30px"/></a>',
+              <a href="https://github.com/applitools" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/000000/github.png" height="30px"/></a><script async src="https://js.sitesearch360.com/plugin/bundle/1853.js"></script>',
             }
-          ],
-        },
-        {
-          items: [
-            {
-              html: '<div class="searchBar"></div><script async src="https://js.sitesearch360.com/plugin/bundle/1853.js"></script>',
-            },
           ],
         },
         {
