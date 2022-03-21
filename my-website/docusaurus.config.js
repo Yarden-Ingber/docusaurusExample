@@ -91,12 +91,12 @@ module.exports = {
         {
           items: [
             {
-              html: '<a href="https://www.facebook.com/pages/Applitools/163528770501019" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/facebook-circled--v5.png" height="30px"/></a>\
-              <a href="https://twitter.com/applitools" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/twitter-circled--v2.png" height="30px"/></a>\
-              <a href="http://www.linkedin.com/company/2837526?trk=tyah" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v2.png" height="30px"/></a>\
-              <a href="http://www.youtube.com/channel/UCk13Ucc26mWqI4xvsbO13jw" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png" height="30px"/></a>\
-              <a href="https://medium.com/@applitools" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/000000/medium-logo.png" height="30px"/></a>\
-              <a href="https://github.com/applitools" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/000000/github.png" height="30px"/></a><script async src="https://js.sitesearch360.com/plugin/bundle/1853.js"></script>',
+              html: '<a href="https://www.facebook.com/pages/Applitools/163528770501019" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/facebook-circled--v5.png" height="30px" width="30px"/></a>\
+              <a href="https://twitter.com/applitools" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/twitter-circled--v2.png" height="30px" width="30px"/></a>\
+              <a href="http://www.linkedin.com/company/2837526?trk=tyah" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled--v2.png" height="30px" width="30px"/></a>\
+              <a href="http://www.youtube.com/channel/UCk13Ucc26mWqI4xvsbO13jw" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png" height="30px" width="30px"/></a>\
+              <a href="https://medium.com/@applitools" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/000000/medium-logo.png" height="30px" width="30px"/></a>\
+              <a href="https://github.com/applitools" target="_blank"><img src="https://img.icons8.com/glyph-neue/64/000000/github.png" height="30px" width="30px"/></a><script async src="https://js.sitesearch360.com/plugin/bundle/1853.js"></script>',
             }
           ],
         },
