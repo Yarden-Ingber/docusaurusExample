@@ -7,6 +7,8 @@ module.exports = {
   tagline: 'A guide to the Applitools API',
   url: 'https://applitools.com',
   baseUrl: '/docs/api-ref/',
+  // url: 'https://applitools-docs.netlify.app/',
+  // baseUrl: '/',
   onBrokenLinks: 'error',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.webp',
@@ -22,6 +24,7 @@ module.exports = {
     //   appId: '43J1WXG2YG',
     // },
     hideableSidebar: false,
+    autoCollapseSidebarCategories: true,
     navbar: {
       logo: {
         alt: 'Applitools documentation logo',
