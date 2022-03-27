@@ -1,13 +1,14 @@
 # Date format
-All the dates and times used in the API SHOULD have the following format, and MUST be compatible with RFC3339:
+All the dates and times used in the API MUST have the following format, compatible with RFC3339:
 
 ```
-YYYY-MM-DD[THH:mm:ss]Z
+YYYY-MM-DDTHH:mm:ssK
 ```
 
-Examples:
+Where 'K' is a time-zone marker. Use 'Z' for UTC.
+
+Example:
 
 ```
 2009-06-15T13:45:30Z
-2009-06-15Z
 ```
