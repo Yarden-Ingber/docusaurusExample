@@ -22,10 +22,12 @@ module.exports = {
     {
       type: 'category',
       label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
       items: [
         {
           type: 'category',
           label: 'Selenium',
+          link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/selenium',},
           items: [
             {type: 'link', label: 'Java', href: '/sdk-api/selenium/java'},
             {type: 'link', label: 'Javascript', href: '/sdk-api/selenium/javascript'},
@@ -44,6 +46,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Appium',
+          link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/appium',},
           items: [
             {type: 'link', label: 'Java', href: '/sdk-api/appium/java'},
             {type: 'link', label: 'DotNet', href: '/sdk-api/appium/dotnet'},
@@ -59,6 +62,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Images',
+          link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/images',},
           items: [
             {type: 'link', label: 'Dotnet', href: '/sdk-api/images/dotnet'},
             {type: 'link', label: 'Java', href: '/sdk-api/images/java'},
