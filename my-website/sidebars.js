@@ -126,8 +126,8 @@ module.exports = {
 
   sdkAppiumJavaSidebar: [
     {
-      type: 'category',
-      label: 'SDK API reference',
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
       items: [
         {
           type: 'category',
@@ -152,8 +152,8 @@ module.exports = {
 
   sdkAppiumCsharpSidebar: [
     {
-      type: 'category',
-      label: 'SDK API reference',
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
       items: [
         {
           type: 'category',
@@ -178,8 +178,8 @@ module.exports = {
 
   sdkEspressoJavaSidebar: [
     {
-      type: 'category',
-      label: 'SDK API reference',
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
       items: [
         {
           type: 'category',
@@ -203,7 +203,10 @@ module.exports = {
   ],
 
   sdkImagesCsharpSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference', 
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Images', //Edit ******
           items: [
@@ -224,7 +227,10 @@ module.exports = {
   ],
 
   sdkImagesJavaSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Images', //Edit ******
           items: [
@@ -245,7 +251,10 @@ module.exports = {
   ],
 
   sdkImagesJavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Images', //Edit ******
           items: [
@@ -266,7 +275,10 @@ module.exports = {
   ],
 
   sdkImagesObjectivecSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Images', //Edit ******
           items: [
@@ -287,7 +299,10 @@ module.exports = {
   ],
 
   sdkImagesPythonSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Images', //Edit ******
           items: [
@@ -308,7 +323,10 @@ module.exports = {
   ],
 
   sdkImagesAppKitObjectivecSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Images App kit', //Edit ******
           items: [
@@ -329,7 +347,10 @@ module.exports = {
   ],
   
   sdkNightwatchJavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Nightwatch', //Edit ******
           items: [
@@ -350,7 +371,10 @@ module.exports = {
   ],
 
   sdkPlaywrightJavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Playwright', //Edit ******
           items: [
@@ -371,7 +395,10 @@ module.exports = {
   ],
 
   sdkProtractorJavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Protractor', //Edit ******
           items: [
@@ -392,7 +419,10 @@ module.exports = {
   ],
 
   sdkPuppeteerJavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Puppeteer', //Edit ******
           items: [
@@ -413,7 +443,10 @@ module.exports = {
   ],
 
   sdkSeleniumCsharpSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Selenium', //Edit ******
           items: [
@@ -434,7 +467,10 @@ module.exports = {
   ],
 
   sdkSeleniumJavaSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Selenium', //Edit ******
           items: [
@@ -455,7 +491,10 @@ module.exports = {
   ],
 
   sdkSeleniumJavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Selenium', //Edit ******
           items: [
@@ -476,7 +515,10 @@ module.exports = {
   ],
 
   sdkSeleniumPythonSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Selenium', //Edit ******
           items: [
@@ -497,7 +539,10 @@ module.exports = {
   ],
 
   sdkSeleniumPythonSdk4Sidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Selenium', //Edit ******
           items: [
@@ -518,7 +563,10 @@ module.exports = {
   ],
 
   sdkSelenium4JavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'Selenium 4', //Edit ******
           items: [
@@ -539,7 +587,10 @@ module.exports = {
   ],
 
   sdkWDIO4JavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'WebdriverIO 4', //Edit ******
           items: [
@@ -560,7 +611,10 @@ module.exports = {
   ],
 
   sdkWDIO5JavascriptSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'WebdriverIO 5-7', //Edit ******
           items: [
@@ -581,7 +635,10 @@ module.exports = {
   ],
 
   sdkXCUIObjectiveCSidebar: [ //Edit ******
-    {type: 'category', label: 'SDK API reference', items: [
+    {
+      type: 'category', label: 'SDK API reference',
+      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      items: [
         {type: 'category',
           label: 'XCUI', //Edit ******
           items: [
