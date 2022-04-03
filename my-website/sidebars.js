@@ -3,123 +3,130 @@ module.exports = {
   mainSidebar: [
     {
       type: 'category',
-      label: 'Server REST API reference',
-      items: [
-        'server-api/getting-started',
-        'server-api/basic-endpoint',
-        'server-api/authentication',
-        'server-api/date-format',
-        {
-          type: 'category',
-          label: 'Batches',
-          items: [
-            'server-api/batches/list-batch-results',
-            'server-api/batches/list-batch-statistics',
-          ]
-        },
-      ]
-    },
-    {
-      type: 'category',
-      label: 'SDK API reference',
-      link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
+      label: 'Applitools API reference guide',
+      link: {type: 'generated-index', title: 'Applitools API reference guide', slug: '/',},
       items: [
         {
           type: 'category',
-          label: 'Selenium',
-          link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/selenium',},
+          label: 'Server REST API',
+          link: {type: 'doc', id: 'server-api/getting-started'},
           items: [
-            {type: 'link', label: 'Java', href: '/sdk-api/selenium/java'},
-            {type: 'link', label: 'Javascript', href: '/sdk-api/selenium/javascript'},
-            {type: 'link', label: 'DotNet', href: '/sdk-api/selenium/dotnet'},
-            {type: 'link', label: 'Python', href: '/sdk-api/selenium/python'},
-            {type: 'link', label: 'Python sdk 4', href: '/sdk-api/selenium/python_sdk4'},
+            'server-api/basic-endpoint',
+            'server-api/authentication',
+            'server-api/date-format',
+            {
+              type: 'category',
+              label: 'Batches',
+              items: [
+                'server-api/batches/list-batch-results',
+                'server-api/batches/list-batch-statistics',
+              ]
+            },
           ]
         },
         {
           type: 'category',
-          label: 'Selenium 4',
+          label: 'SDK API',
+          link: {type: 'generated-index', title: 'List of available SDKs', slug: '/sdk-api',},
           items: [
-            {type: 'link', label: 'Javascript', href: '/sdk-api/selenium4/javascript'},
+            {
+              type: 'category',
+              label: 'Selenium',
+              link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/selenium',},
+              items: [
+                {type: 'link', label: 'Java', href: '/sdk-api/selenium/java'},
+                {type: 'link', label: 'Javascript', href: '/sdk-api/selenium/javascript'},
+                {type: 'link', label: 'DotNet', href: '/sdk-api/selenium/dotnet'},
+                {type: 'link', label: 'Python', href: '/sdk-api/selenium/python'},
+                {type: 'link', label: 'Python sdk 4', href: '/sdk-api/selenium/python_sdk4'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Selenium 4',
+              items: [
+                {type: 'link', label: 'Javascript', href: '/sdk-api/selenium4/javascript'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Appium',
+              link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/appium',},
+              items: [
+                {type: 'link', label: 'Java', href: '/sdk-api/appium/java'},
+                {type: 'link', label: 'DotNet', href: '/sdk-api/appium/dotnet'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Espresso',
+              items: [
+                {type: 'link', label: 'Java', href: '/sdk-api/espresso/java'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Images',
+              link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/images',},
+              items: [
+                {type: 'link', label: 'Dotnet', href: '/sdk-api/images/dotnet'},
+                {type: 'link', label: 'Java', href: '/sdk-api/images/java'},
+                {type: 'link', label: 'Javascript', href: '/sdk-api/images/javascript'},
+                {type: 'link', label: 'Objective C', href: '/sdk-api/images/objectivec'},
+                {type: 'link', label: 'Python', href: '/sdk-api/images/python'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Images App kit',
+              items: [
+                {type: 'link', label: 'Objective C', href: '/sdk-api/imagesappkit/objectivec'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Nightwatch',
+              items: [
+                {type: 'link', label: 'Javascript', href: '/sdk-api/nightwatch/javascript'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Playwright',
+              items: [
+                {type: 'link', label: 'Javascript', href: '/sdk-api/playwright/javascript'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Protractor',
+              items: [
+                {type: 'link', label: 'Javascript', href: '/sdk-api/protractor/javascript'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'WebdriverIO 4',
+              items: [
+                {type: 'link', label: 'Javascript', href: '/sdk-api/wdio4/javascript'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'WebdriverIO 5-7',
+              items: [
+                {type: 'link', label: 'Javascript', href: '/sdk-api/wdiogeneric/javascript'},
+              ]
+            },
+            {
+              type: 'category',
+              label: 'XCUI',
+              items: [
+                {type: 'link', label: 'Objective C', href: '/sdk-api/xcui/objectivec'},
+              ]
+            },
           ]
-        },
-        {
-          type: 'category',
-          label: 'Appium',
-          link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/appium',},
-          items: [
-            {type: 'link', label: 'Java', href: '/sdk-api/appium/java'},
-            {type: 'link', label: 'DotNet', href: '/sdk-api/appium/dotnet'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Espresso',
-          items: [
-            {type: 'link', label: 'Java', href: '/sdk-api/espresso/java'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Images',
-          link: {type: 'generated-index', title: 'List of programming languages', slug: '/sdk-api/images',},
-          items: [
-            {type: 'link', label: 'Dotnet', href: '/sdk-api/images/dotnet'},
-            {type: 'link', label: 'Java', href: '/sdk-api/images/java'},
-            {type: 'link', label: 'Javascript', href: '/sdk-api/images/javascript'},
-            {type: 'link', label: 'Objective C', href: '/sdk-api/images/objectivec'},
-            {type: 'link', label: 'Python', href: '/sdk-api/images/python'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Images App kit',
-          items: [
-            {type: 'link', label: 'Objective C', href: '/sdk-api/imagesappkit/objectivec'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Nightwatch',
-          items: [
-            {type: 'link', label: 'Javascript', href: '/sdk-api/nightwatch/javascript'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Playwright',
-          items: [
-            {type: 'link', label: 'Javascript', href: '/sdk-api/playwright/javascript'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Protractor',
-          items: [
-            {type: 'link', label: 'Javascript', href: '/sdk-api/protractor/javascript'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'WebdriverIO 4',
-          items: [
-            {type: 'link', label: 'Javascript', href: '/sdk-api/wdio4/javascript'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'WebdriverIO 5-7',
-          items: [
-            {type: 'link', label: 'Javascript', href: '/sdk-api/wdiogeneric/javascript'},
-          ]
-        },
-        {
-          type: 'category',
-          label: 'XCUI',
-          items: [
-            {type: 'link', label: 'Objective C', href: '/sdk-api/xcui/objectivec'},
-          ]
-        },
+        }
       ]
     }
   ],

@@ -1,8 +1,3 @@
----
-slug: /
-sidebar_position: 1
----
-
 # Getting started
 
 Applitools exposes a set of REST API endpoints that allows you to retrieve data programmatically
