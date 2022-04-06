@@ -1,4 +1,4 @@
-# List Page Coverage 
+# List page coverage 
 Lists the results of sessions page coverage in a batch.
 
 ## Request
@@ -13,7 +13,7 @@ GET /batches/{BatchId}/pagecoverage
 
 
 
-## Response Example
+## Response example
 ```json
 {
     "TotalNumberOfTestedPages": 5,
@@ -59,7 +59,7 @@ GET /batches/{BatchId}/pagecoverage
   }
 ```
 
-## cURL Example
+## cURL example
 ```
 curl -H "X-Eyes-Api-Key: <your-api-key>" -X GET "https://eyes.applitools.com/api/v1/batches/<some-batch-id>/pagecoverage" 
 ```
