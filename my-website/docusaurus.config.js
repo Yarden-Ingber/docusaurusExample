@@ -7,8 +7,8 @@ module.exports = {
   tagline: 'A guide to the Applitools API',
   url: 'https://applitools.com',
   baseUrl: '/docs/api-ref/',
-  // url: 'https://applitools-docs.netlify.app/',
-  // baseUrl: '/',
+  // url: 'https://devtst.applitools.com',
+  // baseUrl: '/docs-rvw-2/',
   onBrokenLinks: 'error',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.webp',
@@ -153,6 +153,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          breadcrumbs: false,
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/', // Set this value to '/'.
         },
