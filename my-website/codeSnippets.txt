@@ -1,0 +1,7 @@
+Iframe with gist example
+Create link from:
+https://emgithub.com/
+
+<iframe width="100%" height="220" margin="0" padding="0" frameBorder="0" srcdoc='<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><link href="style.css" rel="stylesheet" /></head><body>
+====GIST <script> LINK====
+</body></html>'></iframe>
